@@ -1,595 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial-scale=2.0">
+        <title>Personal Portfolio</title>
+        <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WanderNest | Travel Agency</title>
 
-    <!-- CSS -->
+    <title>Samuel Paul | Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
 
-    <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-    <!-- Font Awesome Icons -->
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 
+</head>
+ 
 <body>
+<header>
+               <h1> Samuel Paul Thoppil</h1>
+               <p> Student | Full Stack Developer</p>
+               
+</header>
 
-    <!-- ================= NAVBAR ================= -->
+<nav>
+         <ul>
+                  <li><a href="#about">About</a></li>
+		<li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+		<li><a href="#contact">Contact</a></li>
 
-    <header class="header">
+	</ul>
+</nav>
+<main>
+<section id = "about">
+<h2>About Me</h2>
+<img src ="C:\Users\samue\Documents\Frontend classwork\portfolio\profile_picture.png" alt = "Samuel">
+<p>
 
-        <nav class="navbar">
+Hi, I'm  Samuel Paul Thoppil ,  a BCA student who enjoys creating websites and learning new technologies. I have a strong interest in web development and love turning ideas into responsive, user-friendly, and visually appealing websites
 
-            <div class="logo">
-                <i class="fa-solid fa-plane"></i>
-                WanderNest
-            </div>
+Over the years, I've worked on projects such as a Healthcare Chatbot,  Panchayat Management System,  Restaurant Website, Car Website , Airbnb Clone , and my own  Personal Portfolio . Each project has helped me improve my skills in HTML, CSS, JavaScript, Python, PHP, Flutter, and React while giving me practical experience in building real-world applications.
 
-            <ul class="nav-links">
+I'm always eager to learn, explore new technologies, and challenge myself with new projects. My goal is to become a skilled Full Stack Developer and build digital solutions that are both useful and meaningful.
+</p>
+</section>
 
-                <li><a href="#home">Home</a></li>
+<section id="skills">
+         <h2> Skills </h2>
+         <ul>
+             <li>HTML5 and CSS3</li>
+             <li>JavaScript</li>
+             <li>Python</li>
+             <li>SQL</li>
+         </ul>
+     </section>
 
-                <li><a href="#destinations">Destinations</a></li>
+<section id="projects">
 
-                <li><a href="#packages">Packages</a></li>
+    <h2>My Projects</h2>
 
-                <li><a href="#gallery">Gallery</a></li>
+    <div class="project-container">
 
-                <li><a href="#about">About</a></li>
+        <div class="project-card">
+            <h3>🎓 Student Registration Form</h3>
+            <p>Responsive registration form built using HTML5 and CSS3.</p>
 
-                <li><a href="#contact">Contact</a></li>
-
-            </ul>
-
-            <button class="book-btn">
-                Book Now
-            </button>
-
-            <div class="menu-btn">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-
-        </nav>
-
-    </header>
-
-    <!-- ================= HERO ================= -->
-
-    <section class="hero" id="home">
-
-        <div class="hero-content">
-
-            <h1>
-
-                Discover The World's
-
-                <span>Hidden Paradise</span>
-
-            </h1>
-
-            <p>
-
-                Experience unforgettable journeys,
-                luxury stays and breathtaking destinations
-                around the world.
-
-            </p>
-
-            <div class="hero-buttons">
-
-                <button class="primary-btn">
-
-                    Explore Now
-
-                </button>
-
-                <button class="secondary-btn">
-
-                    Watch Video
-
-                </button>
-
-            </div>
-
+            <a href="C:\Users\samue\Documents\5th sem labs\Frontend classwork\portfolio\Student_Registration\registration_form.html" target="_blank">
+                View Project
+            </a>
         </div>
 
-        <div class="hero-card">
+        <div class="project-card">
+            <h3>🎵 Multimedia Web Page</h3>
+            <p>HTML multimedia page containing audio and video integration.</p>
 
-            <h2>Summer Offer</h2>
-
-            <h1>30% OFF</h1>
-
-            <p>
-
-                Book your dream vacation today.
-
-            </p>
-
-            <button>
-
-                Claim Offer
-
-            </button>
-
+            <a href="C:\Users\samue\Documents\5th sem labs\Frontend classwork\portfolio\Multi-Media\multi_media.html" target="_blank">
+                View Project
+            </a>
         </div>
 
-    </section>
+        <div class="project-card">
+            <h3>🏡 WanderNest</h3>
+            <p>Travel and accommodation booking website inspired by Airbnb.</p>
 
-    <!-- ================= DESTINATIONS ================= -->
-
-    <section class="destinations" id="destinations">
-
-        <div class="section-title">
-
-            <h2>Popular Destinations</h2>
-
-            <p>Explore our most loved places.</p>
-
+            <a href="C:\Users\samue\Documents\5th sem labs\Frontend classwork\portfolio\WanderNest\index.html" target="_blank">
+                View Project
+            </a>
         </div>
 
-        <div class="destination-grid">
-
-            <div class="card">
-    <img src="https://picsum.photos/500/400?1" alt="Bali">
-
-    <div class="card-overlay">
-        <span class="rating"><i class="fa-solid fa-star"></i> 4.9</span>
-
-        <div class="card-content">
-            <h3>Bali</h3>
-            <p><i class="fa-solid fa-location-dot"></i> Indonesia</p>
-        </div>
-    </div>
-</div>
-
-           <div class="card">
-    <img src="https://picsum.photos/500/400?1" alt="Bali">
-
-    <div class="card-overlay">
-        <span class="rating"><i class="fa-solid fa-star"></i> 4.9</span>
-
-        <div class="card-content">
-            <h3>Paris</h3>
-            <p><i class="fa-solid fa-location-dot"></i> France</p>
-        </div>
-    </div>
-</div>
-
-           <div class="card">
-    <img src="https://picsum.photos/500/400?1" alt="Bali">
-
-    <div class="card-overlay">
-        <span class="rating"><i class="fa-solid fa-star"></i> 4.9</span>
-
-        <div class="card-content">
-            <h3>Dubai</h3>
-            <p><i class="fa-solid fa-location-dot"></i> UAE</p>
-        </div>
-    </div>
-</div>
-
-            <div class="card">
-    <img src="https://picsum.photos/500/400?1" alt="Bali">
-
-    <div class="card-overlay">
-        <span class="rating"><i class="fa-solid fa-star"></i> 4.9</span>
-
-        <div class="card-content">
-            <h3>Maldives</h3>
-            <p><i class="fa-solid fa-location-dot"></i> Indian Ocean</p>
-        </div>
-    </div>
-</div>
-
-           <div class="card">
-    <img src="https://picsum.photos/500/400?1" alt="Bali">
-
-    <div class="card-overlay">
-        <span class="rating"><i class="fa-solid fa-star"></i> 4.9</span>
-
-        <div class="card-content">
-            <h3>Tokyo</h3>
-            <p><i class="fa-solid fa-location-dot"></i> Japan</p>
-        </div>
-    </div>
-</div>
-
-            <div class="card">
-    <img src="https://picsum.photos/500/400?1" alt="Bali">
-
-    <div class="card-overlay">
-        <span class="rating"><i class="fa-solid fa-star"></i> 4.9</span>
-
-        <div class="card-content">
-            <h3>Switzerland</h3>
-            <p><i class="fa-solid fa-location-dot"></i> Europe</p>
-        </div>
-    </div>
-</div>
-
-        </div>
-
-    </section>
-
-    <!-- ================= PACKAGES ================= -->
-
-    <div class="package-grid">
-
-    <div class="package-card">
-
-        <img src="https://picsum.photos/500/350?10">
-
-        <div class="package-content">
-
-            <span class="price">$899</span>
-
-            <h3>Bali Escape</h3>
-
-            <p>5 Days • Luxury Resort • Flights Included</p>
-
-            <div class="package-info">
-
-                <span><i class="fa-solid fa-star"></i> 4.9</span>
-
-                <span><i class="fa-solid fa-location-dot"></i> Indonesia</span>
-
-            </div>
-
-            <button>Book Now</button>
-
-        </div>
-
-    </div>
-
-    <div class="package-card">
-
-        <img src="https://picsum.photos/500/350?11">
-
-        <div class="package-content">
-
-            <span class="price">$1099</span>
-
-            <h3>Swiss Adventure</h3>
-
-            <p>7 Days • Mountain Tours • Hotels Included</p>
-
-            <div class="package-info">
-
-                <span><i class="fa-solid fa-star"></i> 4.8</span>
-
-                <span><i class="fa-solid fa-location-dot"></i> Switzerland</span>
-
-            </div>
-
-            <button>Book Now</button>
-
-        </div>
-
-    </div>
-
-    <div class="package-card">
-
-        <img src="https://picsum.photos/500/350?12">
-
-        <div class="package-content">
-
-            <span class="price">$699</span>
-
-            <h3>Dubai Luxury</h3>
-
-            <p>4 Days • Desert Safari • 5★ Hotel</p>
-
-            <div class="package-info">
-
-                <span><i class="fa-solid fa-star"></i> 4.7</span>
-
-                <span><i class="fa-solid fa-location-dot"></i> UAE</span>
-
-            </div>
-
-            <button>Book Now</button>
-
-        </div>
-
-    </div>
-
-</div>
-    <!-- ================= GALLERY ================= -->
-
-    <section class="gallery" id="gallery">
-
-       <div class="gallery-grid">
-
-    <div class="gallery-item item1">
-        <img src="https://picsum.photos/600/600?21">
-    </div>
-
-    <div class="gallery-item item2">
-        <img src="https://picsum.photos/600/500?22">
-    </div>
-
-    <div class="gallery-item item3">
-        <img src="https://picsum.photos/500/500?23">
-    </div>
-
-    <div class="gallery-item item4">
-        <img src="https://picsum.photos/600/700?24">
-    </div>
-
-    <div class="gallery-item item5">
-        <img src="https://picsum.photos/500/500?25">
-    </div>
-
-    <div class="gallery-item item6">
-        <img src="https://picsum.photos/500/500?26">
-    </div>
-
-</div>
-
-    </section>
-
-   <!-- ================= ABOUT ================= -->
-
-<section class="about" id="about">
-
-    <div class="section-title">
-
-        <h2>About WanderNest</h2>
-
-        <p>Your trusted travel companion for unforgettable adventures.</p>
-
-    </div>
-
-    <div class="about-grid">
-
-        <!-- Left Side -->
-
-        <div class="about-image">
-
-            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=900" alt="Travel">
-
-        </div>
-
-        <!-- Right Side -->
-
-        <div class="about-content">
-
-            <h3>Explore The World With Confidence</h3>
-
-            <p>
-
-                At <strong>WanderNest</strong>, we believe every journey should be
-                memorable, affordable, and stress-free. We specialize in creating
-                personalized travel experiences that combine comfort, adventure,
-                and luxury.
-
-            </p>
-
-            <p>
-
-                Whether you're dreaming of tropical beaches, breathtaking mountains,
-                vibrant cities, or cultural escapes, our experienced travel experts
-                are here to turn your dream vacation into reality.
-
-            </p>
-
-            <div class="about-features">
-
-                <div class="feature">
-
-                    <i class="fa-solid fa-earth-americas"></i>
-
-                    <div>
-
-                        <h4>120+ Destinations</h4>
-
-                        <p>Worldwide travel packages</p>
-
-                    </div>
-
-                </div>
-
-                <div class="feature">
-
-                    <i class="fa-solid fa-users"></i>
-
-                    <div>
-
-                        <h4>50,000+ Happy Travelers</h4>
-
-                        <p>Trusted by thousands of customers</p>
-
-                    </div>
-
-                </div>
-
-                <div class="feature">
-
-                    <i class="fa-solid fa-headset"></i>
-
-                    <div>
-
-                        <h4>24/7 Support</h4>
-
-                        <p>Always available for your journey</p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <button class="primary-btn">
-
-                Learn More
-
-            </button>
-
+        <div class="project-card">
+            <h3>💻 GitHub</h3>
+            <p>Explore all of my source code and development projects.</p>
+
+            <a href="https://github.com/thenovastack" target="_blank">
+                Visit GitHub
+            </a>
         </div>
 
     </div>
 
 </section>
 
-    <!-- ================= CONTACT ================= -->
+     <section id="contact">
+         <h2>Contact</h2>
+         <p>📧 samuelthoppil2005@gmail.com</p>
+	<p>📞 +91 75618 72997</p>
+     </section>
+</main>
 
-<section class="contact" id="contact">
-
-    <div class="section-title">
-
-        <h2>Get In Touch</h2>
-
-        <p>Have questions or ready to plan your next adventure? We'd love to hear from you.</p>
-
-    </div>
-
-    <div class="contact-grid">
-
-        <!-- Contact Information -->
-
-        <div class="contact-info">
-
-            <h3>Let's Plan Your Dream Vacation</h3>
-
-            <p>
-                Our travel experts are always ready to help you discover the
-                perfect destination and create unforgettable memories.
-            </p>
-
-            <div class="info-box">
-
-                <i class="fa-solid fa-location-dot"></i>
-
-                <div>
-                    <h4>Address</h4>
-                    <p>MG Road, Kochi, Kerala, India</p>
-                </div>
-
-            </div>
-
-            <div class="info-box">
-
-                <i class="fa-solid fa-phone"></i>
-
-                <div>
-                    <h4>Phone</h4>
-                    <p>+91 7561872997</p>
-                </div>
-
-            </div>
-
-            <div class="info-box">
-
-                <i class="fa-solid fa-envelope"></i>
-
-                <div>
-                    <h4>Email</h4>
-                    <p>wandernest@gmail.com</p>
-                </div>
-
-            </div>
-
-            <div class="info-box">
-
-                <i class="fa-solid fa-clock"></i>
-
-                <div>
-                    <h4>Working Hours</h4>
-                    <p>Mon - Sat : 9:00 AM - 7:00 PM</p>
-                </div>
-
-            </div>
-
-        </div>
-
-        <!-- Contact Form -->
-
-        <div class="contact-form">
-
-            <form id="contactForm">
-
-    <input
-        type="text"
-        id="name"
-        placeholder="Your Name"
-        required>
-
-    <input
-        type="email"
-        id="email"
-        placeholder="Email Address"
-        required>
-
-    <input
-        type="text"
-        id="destination"
-        placeholder="Destination">
-
-    <textarea
-        id="message"
-        rows="6"
-        placeholder="Your Message"></textarea>
-
-    <button type="submit"
-        class="primary-btn">
-
-        Send Message
-
-    </button>
-
-</form>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ================= MAP ================= -->
-
-<section class="map-section">
-
-    <div class="section-title">
-
-        <h2>📍 Visit Our Office</h2>
-
-        <p>
-            We'd love to welcome you! Visit our office or contact our travel
-            experts to start planning your next unforgettable journey.
-        </p>
-
-    </div>
-
-    <div class="map-container">
-
-        <iframe
-            src="https://www.google.com/maps?q=Kochi,Kerala&output=embed"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
-
-    </div>
-
-</section>
-
-    <!-- ================= FOOTER ================= -->
-
-    <footer>
-
-        <h3>© 2026 WanderNest. All Rights Reserved.</h3>
-
-    </footer>
-
-    <!-- JavaScript -->
-
-    <script src="script.js"></script>
-
-</body>
-
-</html>
+ 
+   
+                 
